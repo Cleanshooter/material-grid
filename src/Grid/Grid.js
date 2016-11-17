@@ -3,7 +3,7 @@ import './material-grid.css';
 
 const GenerateGridClassNames = (props) => {
   let classes = "mdl-grid";
-  consol.log(props);
+  console.log(props);
   return classes;
 }
 

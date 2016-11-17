@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './material-cell.css';
 
 const GenerateCellClassNames = (props) => {
   let classes = "mdl-cell";
-  consol.log(props);
+  console.log(props);
   return classes;
 }
 
