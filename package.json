@@ -1,7 +1,11 @@
 {
   "name": "material-grid",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.2",
+  "description":"Starter package for a Material Design grid React Component",
+  "main":"index.js",
+  "author":"Joe Motacek",
+  "license":"MIT",
+  "private": false,
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
