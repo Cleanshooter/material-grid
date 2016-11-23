@@ -6,6 +6,9 @@ const GenerateGridClassNames = (props) => {
   if(props.noSpacing){
     classes += " mdl-grid--no-spacing";
   }
+  if(props.customClass){
+    classes += " " + props.customClass;
+  }
   return classes;
 }
 

@@ -59,6 +59,9 @@ var GenerateCellClassNames = function GenerateCellClassNames(props) {
   if (props.bottom) {
     classes += " mdl-cell--bottom";
   }
+  if (props.customClass) {
+    classes += " " + props.customClass;
+  }
   return classes;
 };
 
