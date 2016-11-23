@@ -14,7 +14,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var GenerateGridClassNames = function GenerateGridClassNames(props) {
   var classes = "mdl-grid";
-  console.log(props);
+  if (props.noSpacing) {
+    classes += " mdl-grid--no-spacing";
+  }
   return classes;
 };
 

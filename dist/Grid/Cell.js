@@ -14,6 +14,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var GenerateCellClassNames = function GenerateCellClassNames(props) {
   var classes = "mdl-cell";
+  if (props.col) {
+    classes += " mdl-cell--" + props.col + "-col";
+  }
   console.log(props);
   return classes;
 };

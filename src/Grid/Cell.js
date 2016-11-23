@@ -3,6 +3,9 @@ import React from 'react';
 
 const GenerateCellClassNames = (props) => {
   let classes = "mdl-cell";
+  if(props.col){
+    classes += " mdl-cell--"+props.col+"-col"
+  }
   console.log(props);
   return classes;
 }

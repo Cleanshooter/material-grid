@@ -3,7 +3,9 @@ import React from 'react';
 
 const GenerateGridClassNames = (props) => {
   let classes = "mdl-grid";
-  console.log(props);
+  if(props.noSpacing){
+    classes += " mdl-grid--no-spacing";
+  }
   return classes;
 }
 
