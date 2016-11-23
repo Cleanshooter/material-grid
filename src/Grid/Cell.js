@@ -8,9 +8,8 @@ const GenerateCellClassNames = (props) => {
 }
 
 const Cell = (props) => {
-  let classNames = GenerateCellClassNames(props);
   return (
-    <div className={classNames}></div>
+    <div className={GenerateCellClassNames(props)}>{ props.children }</div>
   );
 };
 

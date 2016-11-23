@@ -8,9 +8,8 @@ const GenerateGridClassNames = (props) => {
 }
 
 const Grid = (props) => {
-  let classNames = GenerateGridClassNames(props);
   return (
-    <div className={classNames}></div>
+    <div className={GenerateGridClassNames(props)}>{ props.children }</div>
   );
 };
 
