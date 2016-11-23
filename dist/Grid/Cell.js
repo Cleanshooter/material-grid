@@ -47,9 +47,6 @@ var GenerateCellClassNames = function GenerateCellClassNames(props) {
   if (props.hidePhone) {
     classes += " mdl-cell--hide-phone";
   }
-  if (props.stretch) {
-    classes += " mdl-cell--stretch";
-  }
   if (props.top) {
     classes += " mdl-cell--top";
   }
