@@ -29,13 +29,13 @@ var GenerateCellClassNames = function GenerateCellClassNames(props) {
   if (props.offset) {
     classes += " mdl-cell--" + props.offset + "-offset";
   }
-  if (props.offsetDesktop) {
+  if (props.desktopOffset) {
     classes += " mdl-cell--" + props.offsetDesktop + "-offset-desktop";
   }
-  if (props.offsetTablet) {
+  if (props.tabletOffset) {
     classes += " mdl-cell--" + props.offsetTablet + "-offset-tablet";
   }
-  if (props.offsetPhone) {
+  if (props.phoneOffest) {
     classes += " mdl-cell--" + props.offsetPhone + "-offset-phone";
   }
   if (props.hideDesktop) {
