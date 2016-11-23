@@ -19,8 +19,11 @@ var GenerateCellClassNames = function GenerateCellClassNames(props) {
 };
 
 var Cell = function Cell(props) {
-  var classNames = GenerateCellClassNames(props);
-  return _react2.default.createElement("div", { className: classNames });
+  return _react2.default.createElement(
+    "div",
+    { className: GenerateCellClassNames(props) },
+    props.children
+  );
 };
 
 exports.default = Cell;

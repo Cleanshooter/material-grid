@@ -19,8 +19,11 @@ var GenerateGridClassNames = function GenerateGridClassNames(props) {
 };
 
 var Grid = function Grid(props) {
-  var classNames = GenerateGridClassNames(props);
-  return _react2.default.createElement("div", { className: classNames });
+  return _react2.default.createElement(
+    "div",
+    { className: GenerateGridClassNames(props) },
+    props.children
+  );
 };
 
 exports.default = Grid;
