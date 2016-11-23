@@ -1,6 +1,6 @@
 {
   "name": "material-grid",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React Components for Material Design Grids.  Based on MDL.",
   "main": "/dist/index.js",
   "scripts": {

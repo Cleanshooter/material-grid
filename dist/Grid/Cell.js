@@ -30,13 +30,13 @@ var GenerateCellClassNames = function GenerateCellClassNames(props) {
     classes += " mdl-cell--" + props.offset + "-offset";
   }
   if (props.desktopOffset) {
-    classes += " mdl-cell--" + props.offsetDesktop + "-offset-desktop";
+    classes += " mdl-cell--" + props.desktopOffset + "-offset-desktop";
   }
   if (props.tabletOffset) {
-    classes += " mdl-cell--" + props.offsetTablet + "-offset-tablet";
+    classes += " mdl-cell--" + props.tabletOffset + "-offset-tablet";
   }
-  if (props.phoneOffest) {
-    classes += " mdl-cell--" + props.offsetPhone + "-offset-phone";
+  if (props.phoneOffset) {
+    classes += " mdl-cell--" + props.phoneOffset + "-offset-phone";
   }
   if (props.hideDesktop) {
     classes += " mdl-cell--hide-desktop";
