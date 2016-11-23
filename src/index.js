@@ -1,2 +1,3 @@
-export Grid from './components/Grid';
-export Cell from './components/Cell'
+import Grid from './Grid/Grid';
+import Cell from './Grid/Cell';
+export { Grid, Cell };
