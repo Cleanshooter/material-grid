@@ -44,8 +44,7 @@ This is an example to get you started:
 **./App.js**
 ```jsx
 import React from 'react';
-import Grid from 'material-grid/dist/Grid/Grid';
-import Cell from 'material-grid/dist/Grid/Cell';
+import {Grid, Cell} from 'material-grid/dist';
 
 class App extends React.Component {
   render() {

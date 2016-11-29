@@ -18,4 +18,9 @@ const Grid = (props) => {
   );
 };
 
+Grid.propTypes = {
+  noSpacing: React.PropTypes.bool,
+  customClass: React.PropTypes.string
+};
+
 export default Grid;

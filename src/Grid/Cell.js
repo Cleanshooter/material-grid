@@ -2,7 +2,7 @@ import React from 'react';
 //import './material-cell.css';
 
 const GenerateCellClassNames = (props) => {
-  let classes = "mdl-cell";
+  const classes = "mdl-cell";
   if(props.col){
     classes += " mdl-cell--"+props.col+"-col";
   }
@@ -55,6 +55,24 @@ const Cell = (props) => {
   return (
     <div className={GenerateCellClassNames(props)}>{ props.children }</div>
   );
+};
+
+Cell.propTypes = {
+    col: React.PropTypes.number.isRequired,
+    desktop: React.PropTypes.number,
+    tablet: React.PropTypes.number,
+    phone: React.PropTypes.number,
+    offset: React.PropTypes.number,
+    desktopOffset: React.PropTypes.number,
+    tabletOffset: React.PropTypes.number,
+    phoneOffset: React.PropTypes.number,
+    hideDesktop: React.PropTypes.bool,
+    hideTablet: React.PropTypes.bool,
+    hidePhone: React.PropTypes.bool,
+    top: React.PropTypes.bool,
+    middle: React.PropTypes.bool,
+    bottom: React.PropTypes.bool,
+    customClass: React.PropTypes.string
 };
 
 export default Cell;
