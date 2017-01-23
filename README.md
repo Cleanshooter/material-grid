@@ -93,7 +93,7 @@ ReactDOM.render(
   document.getElementById('app')
 );
 ```
-## Implmentation
+## Implementation
 
 I've stripped out all non-essential CSS from the MDL distribution package so it only includes the CSS necessary to run the Grid. 
 
